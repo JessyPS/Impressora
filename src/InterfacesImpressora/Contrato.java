@@ -24,9 +24,9 @@ public class Contrato implements Imprimivel{
 
     @Override
     public void imprimir(){
-        System.out.println("Nome: " + nome);
-        System.out.println("Tipo: " + tipo);
-        System.out.println("Sou um contrato muito legal!");
+        System.out.println("Nome: " + nome + "\nTipo: " + tipo + "\nSou um contrato muito legal!\n" );
+//        System.out.println("Tipo: " + tipo);
+//        System.out.println("Sou um contrato muito legal!");
     }
 }
 

@@ -23,9 +23,9 @@ public class Foto  implements Imprimivel{
 
     @Override
     public void imprimir(){
-        System.out.println("Nome: " + nome);
-        System.out.println("Tipo: " + tipo);
-        System.out.println("Sou uma selfie");
+        System.out.println("Nome: " + nome + "\nTipo: " + tipo + "\nSou uma selfie\n ");
+//        System.out.println("Tipo: " + tipo);
+//        System.out.println("Sou uma selfie");
     }
 
 }

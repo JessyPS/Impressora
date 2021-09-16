@@ -22,8 +22,8 @@ public class Documento implements Imprimivel {
 
     @Override
     public void imprimir(){
-        System.out.println("Nome: " + nome);
-        System.out.println("Tipo: " + tipo);
-        System.out.println("Sou um documento do Word!");
+        System.out.println("Nome: " + nome + "\nTipo: " + tipo + "\nSou um documento do Word!\n");
+//        System.out.println("Tipo: " + tipo);
+//        System.out.println("Sou um documento do Word!");
     }
 }
